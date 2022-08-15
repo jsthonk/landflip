@@ -36,3 +36,13 @@ body {
 .btn {
   margin-left: 85px;
 }
+.len {
+  width: 600px;
+  height: 200px;
+}
+.img {
+  width: 190px;
+}
+.move {
+  margin-left: 1000px;
+}
