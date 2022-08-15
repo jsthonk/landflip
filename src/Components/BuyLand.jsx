@@ -5,13 +5,13 @@ import line from "../Assets/title-line-2.png";
 
 const BuyLand = () => {
   return (
-    <div className="h-screen w-full pt-10 text-black flex flex-col  bg-gradient-to-br from-violet-100 via-violet-50 to-violet-50">
+    <div className="h-screen w-full pt-20 text-black flex flex-col">
       <h1 className="text-center font-semibold text-5xl flex flex-col">
         Buy lands with high current and<br></br> future value
       </h1>
       <img src={line} className="w-60 mx-auto" alt="lands"></img>
       <div className="container px-40 mt-10 flex flex-row">
-        <div className="columns-1 bg-slate-100 w-96 car rounded overflow-hidden">
+        <div className="columns-1 w-96 carr rounded overflow-hidden">
           <div className="column">
             <div className="card">
               <img
@@ -28,7 +28,7 @@ const BuyLand = () => {
             </div>
           </div>
         </div>
-        <div className="columns-1 w-96 car rounded overflow-hidden ml-10">
+        <div className="columns-1 w-96 carr rounded overflow-hidden ml-10">
           <div className="column">
             <div className="card">
               <img
@@ -45,7 +45,7 @@ const BuyLand = () => {
             </div>
           </div>
         </div>
-        <div className="columns-1  w-96 car rounded overflow-hidden ml-10">
+        <div className="columns-1  w-96 carr rounded overflow-hidden ml-10">
           <div className="column">
             <div className="card">
               <img
@@ -63,6 +63,15 @@ const BuyLand = () => {
           </div>
         </div>
       </div>
+      <button className="bg-violet-900 w-52 py-4 rounded mt-20 text-white font-bold mx-auto">
+        <a
+          href="https://landflip.ng/land-locations.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View Available Lands
+        </a>
+      </button>
     </div>
   );
 };

@@ -26,11 +26,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <img
-          className="res ml-32 mt-40 hover:scale-105 duration-200"
-          src={hero}
-          alt="heroimage"
-        ></img>
+        <img className="res ml-32 mt-40" src={hero} alt="heroimage"></img>
       </div>
     </div>
   );

@@ -28,6 +28,9 @@ body {
   font-weight: 900;
 }
 .car {
+  height: 470px;
+}
+.carr {
   height: 350px;
 }
 .btn {
