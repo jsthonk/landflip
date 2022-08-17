@@ -1,7 +1,7 @@
 import React from "react";
-import buy from "../Assets/buy.png";
-import "../index.css";
-import line from "../Assets/title-line-2.png";
+import buy from "../../Assets/buy.png";
+import line from "../../Assets/title-line-2.png";
+import "../../index.css";
 
 const BuyLand = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import line from "../Assets/title-line-2.png";
-import img from "../Assets/free.png";
-import small from "../Assets/particle-4.png";
-import smalls from "../Assets/particle-5.png";
-import "../index.css";
+import line from "../../Assets/title-line-2.png";
+import img from "../../Assets/free.png";
+import small from "../../Assets/particle-4.png";
+import smalls from "../../Assets/particle-5.png";
+import "../../index.css";
 
 const Process = () => {
   return (

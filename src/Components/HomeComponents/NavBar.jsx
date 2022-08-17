@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "../Assets/logo.png";
-import { FaAngleRight } from "react-icons/fa";
-import "../index.css";
+import React, { useState } from "react";
+import logo from "../../Assets/logo.png";
+import { FaAngleRight, FaTimes, FaBars } from "react-icons/fa";
+import "../../index.css";
 
 const NavBar = () => {
   const navLinks = [
@@ -11,12 +11,14 @@ const NavBar = () => {
     { id: 5, name: "FAQs" },
   ];
 
+  const [nav, setNav] = useState(false);
+
   return (
     <div className="flex lg:fixed  shadow-lg justify-between items-center w-full h-16 text-black bg-white px-10 border-b-2 border-violet-800">
       <div>
         <img src={logo} alt="logo" className="h-10 hover:animate-pulse" />
       </div>
-      <div className="mx-auto flex">
+      <div className="mx-auto md:flex hidden">
         <p className=" group p-4 flex flex-row items-center font-semibold">
           Featured
           <span className="ml-2 mt-1 group-hover:rotate-90">
@@ -33,7 +35,7 @@ const NavBar = () => {
             </ul>
           </span>
         </p>
-        <ul className="flex flex-row p-4 -ml-5">
+        <ul className="flex-row p-4 -ml-5 md:flex hidden">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -44,7 +46,7 @@ const NavBar = () => {
           ))}
         </ul>
       </div>
-      <div className="flex flex-row">
+      <div className="md:flex flex-row hidden">
         <button className="border-2 text-violet-900 border-violet-400 hover:border-violet-900 duration-500 rounded-full w-24 h-10">
           <a
             href="https://dashboard.landflip.ng/"
@@ -66,6 +68,32 @@ const NavBar = () => {
           </a>
         </button>
       </div>
+      <div
+        onClick={() => setNav(!nav)}
+        className="cursor-pointer z-10 md:hidden lg:hidden"
+      >
+        {nav ? (
+          <FaTimes size={20} className="text-violet-900" />
+        ) : (
+          <FaBars size={20} className="text-violet-900" />
+        )}
+      </div>
+      {nav && (
+        <ul className="flex flex-col absolute top-0 right-0 w-64 h-screen bg-violet-200 md:hidden lg:hidden">
+          <img src={logo} alt="logo" className="w-40 mt-12 mx-auto" />
+          <li className="px-4 text-black cursor-pointer capitalize py-2 mt-10 font-semibold">
+            Featured
+          </li>
+          {navLinks.map((links) => (
+            <li
+              key={links.id}
+              className="px-4 text-black cursor-pointer capitalize py-2 font-semibold"
+            >
+              {links.name}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };

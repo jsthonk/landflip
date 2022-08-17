@@ -1,12 +1,11 @@
 import React from "react";
-import line from "../Assets/title-line-2.png";
-import ada from "../Assets/alice.PNG";
-import dan from "../Assets/dan.PNG";
-import labi from "../Assets/guy.PNG";
-import { line, ada, dan, labi } from "../";
+import line from "../../Assets/title-line-2.png";
+import ada from "../../Assets/alice.PNG";
+import dan from "../../Assets/dan.PNG";
+import labi from "../../Assets/guy.PNG";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
-import pattern1 from "../Assets/cta-left-particle-1.png";
-import pattern2 from "../Assets/cta-right-particle-1.png";
+import pattern1 from "../../Assets/cta-left-particle-1.png";
+import pattern2 from "../../Assets/cta-right-particle-1.png";
 
 const Help = () => {
   return (
