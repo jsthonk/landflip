@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import logo from "../../Assets/logo.png";
 import { FaAngleRight, FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "../../index.css";
 
 const NavBar = () => {
   const navLinks = [
-    { id: 2, name: "Land Location" },
+    { id: 2, name: "Land Location", link: "/landlocations" },
     { id: 3, name: "Services" },
     { id: 4, name: "Testimonials" },
     { id: 5, name: "FAQs" },
@@ -16,7 +17,9 @@ const NavBar = () => {
   return (
     <div className="flex lg:fixed  shadow-lg justify-between items-center w-full h-16 text-black bg-white px-10 border-b-2 border-violet-800">
       <div>
-        <img src={logo} alt="logo" className="h-10 hover:animate-pulse" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="h-10 hover:animate-pulse" />
+        </Link>
       </div>
       <div className="mx-auto md:flex hidden">
         <p className=" group p-4 flex flex-row items-center font-semibold">
@@ -38,10 +41,11 @@ const NavBar = () => {
         <ul className="flex-row p-4 -ml-5 md:flex hidden">
           {navLinks.map((link) => (
             <li
+              to={link.link}
               key={link.id}
               className="mr-4 ml-4 font-semibold cursor-pointer"
             >
-              {link.name}
+              <Link to={link.link}>{link.name}</Link>
             </li>
           ))}
         </ul>

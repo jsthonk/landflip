@@ -32,7 +32,7 @@ const Profiting = () => {
                   You can now earn high returns whether you are buying standard
                   plots, units of land, or reselling.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://dashboard.landflip.ng/"
                     target="_blank"
@@ -54,7 +54,7 @@ const Profiting = () => {
                   $67M of real estate under management, on average, with each
                   transaction generating a net return of between 40% - 90%.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://landflip.ng/buy-land.html"
                     target="_blank"
@@ -76,7 +76,7 @@ const Profiting = () => {
                   partners who want to spread their money into smaller amounts
                   over time and receive returns as high as 75%.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://landflip.ng/flexi-land.html"
                     target="_blank"
@@ -115,7 +115,7 @@ const Profiting = () => {
                   You can now earn high returns whether you are buying standard
                   plots, units of land, or reselling.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://dashboard.landflip.ng/"
                     target="_blank"
@@ -138,7 +138,7 @@ const Profiting = () => {
                   $67M of real estate under management, on average, with each
                   transaction generating a net return of between 40% - 90%.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://landflip.ng/buy-land.html"
                     target="_blank"
@@ -151,7 +151,7 @@ const Profiting = () => {
             </div>
           </div>
           {/* Third */}
-          <div className=" bg-slate-50 w-96 car rounded overflow-hidden mt-10">
+          <div className=" bg-slate-50 mb-10 w-96 car rounded overflow-hidden mt-10">
             <div className="column">
               <div className="card">
                 <img src={buy} className="-mt-5 object-cover" alt="text"></img>
@@ -161,7 +161,7 @@ const Profiting = () => {
                   partners who want to spread their money into smaller amounts
                   over time and receive returns as high as 75%.
                 </h2>
-                <button className="mt-2 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
+                <button className="mt-2 mr-20 btn hover:scale-105 duration-300 hover:animate-pulse bg-violet-900 px-4 py-4 rounded w-52 text-white font-semibold">
                   <a
                     href="https://landflip.ng/flexi-land.html"
                     target="_blank"
