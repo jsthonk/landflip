@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import logo from "../../Assets/logo.png";
-import { FaAngleRight, FaTimes, FaBars } from "react-icons/fa";
+import { FaAngleDown, FaTimes, FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../../index.css";
 
 const NavBar = () => {
   const navLinks = [
     { id: 2, name: "Land Location", link: "/landlocations" },
-    { id: 3, name: "Services" },
+    { id: 3, name: "Services", link: "/services" },
     { id: 4, name: "Testimonials" },
     { id: 5, name: "FAQs" },
   ];
 
   const [nav, setNav] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <div className="flex lg:fixed  shadow-lg justify-between items-center w-full h-16 text-black bg-white px-10 border-b-2 border-violet-800">
@@ -22,22 +23,28 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="mx-auto md:flex hidden">
-        <p className=" group p-4 flex flex-row items-center font-semibold">
+        <p
+          className=" group p-4 flex flex-row items-center font-semibold"
+          onClick={() => setIsOpen((prev) => !prev)}
+        >
           Featured
-          <span className="ml-2 mt-1 group-hover:rotate-90">
-            <FaAngleRight />
-          </span>
-          <span className="absolute hidden group-hover:visible w-52 -ml-16 bg-white shadow-md mt-40 rounded">
-            <ul>
-              <li className="px-2 border-b-2 py-2 cursor-pointer hover:bg-gray-100">
-                Buy Land
-              </li>
-              <li className="px-2 py-2 hover:bg-gray-100 cursor-pointer">
-                Flexi-Land
-              </li>
-            </ul>
+          <span className="ml-2 mt-1">
+            <FaAngleDown />
           </span>
         </p>
+        <span
+          className="absolute w-52 -ml-16 bg-white shadow-md mt-16 rounded"
+          hidden={isOpen ? true : false}
+        >
+          <ul>
+            <li className="px-2 border-b-2 py-2 cursor-pointer hover:bg-gray-100">
+              Buy Land
+            </li>
+            <li className="px-2 py-2 hover:bg-gray-100 cursor-pointer">
+              Flexi-Land
+            </li>
+          </ul>
+        </span>
         <ul className="flex-row p-4 -ml-5 md:flex hidden">
           {navLinks.map((link) => (
             <li
