@@ -64,7 +64,7 @@ const BuyLand = () => {
             </div>
           </div>
         </div>
-        <button className="bg-violet-900 w-52 py-4 rounded mt-20 text-white font-bold mx-auto">
+        <button className="bg-violet-900 w-52 py-4 rounded mt-10 text-white font-bold mx-auto">
           <a
             href="https://landflip.ng/land-locations.html"
             target="_blank"

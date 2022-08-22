@@ -19,7 +19,7 @@ const Profiting = () => {
           </span>{" "}
           with us.
         </h2>
-        <div className="container px-40 mt-6 flex flex-row">
+        <div className="container px-40 mt-4 flex flex-row">
           <div className="columns-1 bg-slate-50 w-96 car rounded overflow-hidden">
             <div className="column">
               <div className="card">
