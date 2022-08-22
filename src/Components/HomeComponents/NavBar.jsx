@@ -8,7 +8,7 @@ const NavBar = () => {
   const navLinks = [
     { id: 2, name: "Land Location", link: "/landlocations" },
     { id: 3, name: "Services", link: "/services" },
-    { id: 4, name: "Testimonials" },
+    { id: 4, name: "Testimonials", link: "/testimonials" },
     { id: 5, name: "FAQs" },
   ];
 
