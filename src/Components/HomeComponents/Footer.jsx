@@ -75,20 +75,20 @@ const Footer = () => {
         <div className=" mt-10">
           <img src={logo} alt="logo" className="w-52" />
         </div>
-        <div className="flex flex-col mt-10">
+        <div className="flex flex-col mt-10 text-left">
           <h1 className="font-bold mb-6">Featured</h1>
           <p className="mb-2">Buy Land</p>
           <p className="mb-2">Flexi-Land</p>
           <p className="mb-2">Land Locations</p>
         </div>
-        <div className="flex flex-col mt-10">
+        <div className="flex flex-col mt-10 text-left">
           <h1 className="font-bold mb-6">Company</h1>
           <p className="mb-2">About</p>
           <p className="mb-2">Services</p>
           <p className="mb-2">Testimonials</p>
           <p className="mb-2">FAQs</p>
         </div>
-        <div className="flex flex-col mt-10 ">
+        <div className="flex flex-col mt-10 text-left">
           <h1 className="font-bold mb-6">Contact</h1>
           <p className="mb-2 flex flex-row gap-2 text-left px-6 ">
             <FaLocationArrow className="my-auto w-8 -ml-8" />

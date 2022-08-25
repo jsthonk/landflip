@@ -5,6 +5,7 @@ import LandLocations from "./Views/LandLocations";
 import { BrowserRouter as Router } from "react-router-dom";
 import NavBar from "./Components/HomeComponents/NavBar";
 import Services from "./Views/Services";
+import Testimonials from "./Views/Testimonials";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/services">
               <Services />
+            </Route>
+            <Route path="/testimonials">
+              <Testimonials />
             </Route>
           </Switch>
         </div>

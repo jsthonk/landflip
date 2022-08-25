@@ -9,7 +9,7 @@ const NavBar = () => {
     { id: 2, name: "Land Location", link: "/landlocations" },
     { id: 3, name: "Services", link: "/services" },
     { id: 4, name: "Testimonials", link: "/testimonials" },
-    { id: 5, name: "FAQs" },
+    { id: 5, name: "FAQs", link: "/faqs" },
   ];
 
   const [nav, setNav] = useState(false);
@@ -100,7 +100,7 @@ const NavBar = () => {
               key={links.id}
               className="px-4 text-black cursor-pointer capitalize py-2 font-semibold"
             >
-              {links.name}
+              <Link to={links.link}>{links.name}</Link>
             </li>
           ))}
         </ul>
