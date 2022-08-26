@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import NavBar from "./Components/HomeComponents/NavBar";
 import Services from "./Views/Services";
 import Testimonials from "./Views/Testimonials";
+import Faqs from "./Views/faqs";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route path="/testimonials">
               <Testimonials />
+            </Route>
+            <Route path="/faqs">
+              <Faqs />
             </Route>
           </Switch>
         </div>

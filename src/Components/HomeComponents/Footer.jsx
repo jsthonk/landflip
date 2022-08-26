@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../Assets/logo.png";
+import { Link } from "react-router-dom";
 import {
   FaLocationArrow,
   FaPhone,
@@ -21,14 +22,24 @@ const Footer = () => {
             <h1 className="font-bold mb-6">Featured</h1>
             <p className="mb-2">Buy Land</p>
             <p className="mb-2">Flexi-Land</p>
-            <p className="mb-2">Land Locations</p>
+            <Link to="/landlocations">
+              <p className="mb-2">Land Locations</p>
+            </Link>
           </div>
           <div className="flex flex-col">
             <h1 className="font-bold mb-6">Company</h1>
-            <p className="mb-2">About</p>
-            <p className="mb-2">Services</p>
-            <p className="mb-2">Testimonials</p>
-            <p className="mb-2">FAQs</p>
+            <Link to="/about">
+              <p className="mb-2">About</p>
+            </Link>
+            <Link to="/services">
+              <p className="mb-2">Services</p>
+            </Link>
+            <Link to="/testimonials">
+              <p className="mb-2">Testimonials</p>
+            </Link>
+            <Link to="/faqs">
+              <p className="mb-2">FAQs</p>
+            </Link>
           </div>
           <div className="flex flex-col">
             <h1 className="font-bold mb-6">Contact</h1>
