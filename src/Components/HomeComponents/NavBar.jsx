@@ -37,9 +37,11 @@ const NavBar = () => {
           hidden={isOpen ? true : false}
         >
           <ul>
-            <li className="px-2 border-b-2 py-2 cursor-pointer hover:bg-gray-100">
-              Buy Land
-            </li>
+            <Link to="/buyland">
+              <li className="px-2 border-b-2 py-2 cursor-pointer hover:bg-gray-100">
+                Buy Land
+              </li>
+            </Link>
             <li className="px-2 py-2 hover:bg-gray-100 cursor-pointer">
               Flexi-Land
             </li>

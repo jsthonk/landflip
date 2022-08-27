@@ -7,6 +7,7 @@ import NavBar from "./Components/HomeComponents/NavBar";
 import Services from "./Views/Services";
 import Testimonials from "./Views/Testimonials";
 import Faqs from "./Views/faqs";
+import BuyLand from "./Views/buyland";
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
               <Testimonials />
             </Route>
             <Route path="/faqs">
+              <Faqs />
+            </Route>
+            <Route path="/buyland">
+              <BuyLand />
+            </Route>
+            <Route path="/flexiland">
               <Faqs />
             </Route>
           </Switch>
