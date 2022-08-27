@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/github.io/landflip/static/css/main.cacb82f3.css",
+    "main.js": "/github.io/landflip/static/js/main.e5a2201e.js",
+    "static/js/787.58b29973.chunk.js": "/github.io/landflip/static/js/787.58b29973.chunk.js",
+    "static/media/students.PNG": "/github.io/landflip/static/media/students.48d8673ed0048faa89a7.PNG",
+    "static/media/guy.PNG": "/github.io/landflip/static/media/guy.d7bc49bb755e99b337c2.PNG",
+    "static/media/alice.PNG": "/github.io/landflip/static/media/alice.eae8e524b2985d1a7c3b.PNG",
+    "static/media/cardlady.PNG": "/github.io/landflip/static/media/cardlady.847269464a99df8c5117.PNG",
+    "static/media/dan.PNG": "/github.io/landflip/static/media/dan.5247dc4d1e6a3a300a74.PNG",
+    "static/media/gold.jpg": "/github.io/landflip/static/media/gold.96250ddc2caa890be9bf.jpg",
+    "static/media/hero.webp": "/github.io/landflip/static/media/hero.d2e1578f047bcfa01b92.webp",
+    "static/media/safegate-logo.png": "/github.io/landflip/static/media/safegate-logo.0d9f96e631048cb6963a.png",
+    "static/media/estates.jpg": "/github.io/landflip/static/media/estates.96906a494caa8fddc020.jpg",
+    "static/media/0.jpeg": "/github.io/landflip/static/media/0.0881967901c8aeb1e75f.jpeg",
+    "static/media/3.jpeg": "/github.io/landflip/static/media/3.904265ddc563b680db31.jpeg",
+    "static/media/9.jpeg": "/github.io/landflip/static/media/9.db86501a701ea109a1b3.jpeg",
+    "static/media/payment3.jpg": "/github.io/landflip/static/media/payment3.4ccb6f7c55bcc454f8ce.jpg",
+    "static/media/6.jpeg": "/github.io/landflip/static/media/6.4dad5bd79058a663d469.jpeg",
+    "static/media/4.jpg": "/github.io/landflip/static/media/4.71696b9220f574c049f7.jpg",
+    "static/media/holdings-logo.png": "/github.io/landflip/static/media/holdings-logo.cd39931220d16f37ed18.png",
+    "static/media/payment1.jpg": "/github.io/landflip/static/media/payment1.70b19e20f9a6d9a746d8.jpg",
+    "static/media/free.png": "/github.io/landflip/static/media/free.d094e9157b9fc163c07f.png",
+    "static/media/payment5.jpg": "/github.io/landflip/static/media/payment5.603dfbf6fbef396bcc58.jpg",
+    "static/media/buy.png": "/github.io/landflip/static/media/buy.4855911dc3108b2ead59.png",
+    "static/media/cta-right-particle-1.png": "/github.io/landflip/static/media/cta-right-particle-1.e072dc889f3a7769fec1.png",
+    "static/media/particle-1.png": "/github.io/landflip/static/media/particle-1.f41f41366ac652ddc948.png",
+    "static/media/wallets_africa.svg": "/github.io/landflip/static/media/wallets_africa.089078971510f868c842d164aa181447.svg",
+    "static/media/paystack-2.svg": "/github.io/landflip/static/media/paystack-2.21a0667a62d2708f324e4fb25085e1eb.svg",
+    "static/media/flutterwave-2.svg": "/github.io/landflip/static/media/flutterwave-2.0ee2d8ee92adec64205fe112e13b4287.svg",
+    "index.html": "/github.io/landflip/index.html",
+    "main.cacb82f3.css.map": "/github.io/landflip/static/css/main.cacb82f3.css.map",
+    "main.e5a2201e.js.map": "/github.io/landflip/static/js/main.e5a2201e.js.map",
+    "787.58b29973.chunk.js.map": "/github.io/landflip/static/js/787.58b29973.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cacb82f3.css",
+    "static/js/main.e5a2201e.js"
+  ]
+}
